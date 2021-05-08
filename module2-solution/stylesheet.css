@@ -97,4 +97,19 @@ p {
 
 }
 
+@media (max-width:767px ) {
+    .col-ten, .col-eleven, .col-twelve {
+        float: left;
+    }
+    .col-ten {
+        width: 100%;
+    }
+    
+    .col-eleven {
+        width: 100%;
+    }
+    .col-twelve {
+        width: 100%;
+    }
+}
 
