@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.the-title {
+    text-align: center;
+    border-style: none;
+    display: block;
+    float: none;
+}
+
+
+.row {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.one, .two, .three {
+    border: 2px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 90%;
+    background-color: rgb(209, 207, 207);
+}
+
+
+h1 {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    float: right;
+    margin-top: 0;
+    border-top: none;
+    border-right: none;
+    padding: 2px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+p {
+    clear: right;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h10 {
+    background-color: pink;
+}
+
+.h20 {
+    background-color: rgb(248, 101, 101);
+}
+
+.h30 {
+    background-color: rgb(240, 240, 95);
+}
+
+@media (min-width:992px) {
+    .col-one, .col-two, .col-three {
+        float: left;
+    }
+    .col-one {
+        width: 33.33%;
+    }
+    
+    .col-two {
+        width: 33.33%;
+    }
+    .col-three {
+        width: 33.33%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px ) {
+    .col-ten, .col-eleven, .col-twelve {
+        float: left;
+    }
+    .col-ten {
+        width: 50%;
+    }
+    
+    .col-eleven {
+        width: 50%;
+    }
+    .col-twelve {
+        width: 100%;
+    }
+    .three {
+        width: 95%;
+    }
+
+}
+
+
