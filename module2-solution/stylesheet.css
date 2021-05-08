@@ -47,6 +47,7 @@ p {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 
 .h10 {
